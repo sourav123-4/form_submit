@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:aquamarine
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.form{
+  display: grid;
+  
+}
+.header>h1{
+  color: blueviolet;
+  font-style: italic;
+}
+div>input{
+  border-radius: 7px;
+  height: 25px;
+  width: 200px;
+  
+}
+div>p{
+  color: cadetblue;
+}
+.footer>button{
+  border-radius: 5px;
+  background-color:chartreuse;
+  color: black;
+  margin-left: 10px;
 }
